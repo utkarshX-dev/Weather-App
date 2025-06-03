@@ -1,0 +1,31 @@
+.SearchBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  background: #f5f7fa;
+}
+
+.SearchBox form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 24px 32px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+.SearchBox .MuiTextField-root {
+  width: 250px;
+}
+
+.SearchBox .MuiButton-root {
+  width: 120px;
+}
+
+.SearchBox p {
+  margin-top: 12px;
+  font-size: 1rem;
+}
